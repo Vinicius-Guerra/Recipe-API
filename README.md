@@ -72,7 +72,7 @@ Padrão de resposta:
      "steps": ["passo1", "passo 2"],
   }
 ]
-
+```
 ### Leitura de Receita individual GET /recipes/:id
 Padrão de Resposta:
 ```json
