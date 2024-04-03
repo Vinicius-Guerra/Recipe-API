@@ -43,9 +43,9 @@ O objeto Receita é definido como:
 Padrão de corpo
 ```json
   {
-     "title": string,
-     "content": string,
-     "steps": string[],
+     "title": "Exemplo 1",
+     "content": "conteudo de descrição",
+     "steps": ["passo1", "passo 2"],
   }
 
 ```
@@ -53,10 +53,10 @@ Padrão de corpo
 Padrão de resposta:
 ```json
   {
-    "id": number,
-    "title": string,
-    "content": string,
-    "steps": string[],
+     "id": 1,
+     "title": "Exemplo 1",
+     "content": "conteudo de descrição",
+     "steps": ["passo1", "passo 2"],
   }
 ```
 
@@ -66,10 +66,10 @@ Padrão de resposta:
 ```json
 [
     {
-     "id": number,
-     "title": string,
-     "content": string,
-     "steps": string[],
+     "id": 1,
+     "title": "Exemplo 1",
+     "content": "conteudo de descrição",
+     "steps": ["passo1", "passo 2"],
   }
 ]
 
@@ -77,16 +77,16 @@ Padrão de resposta:
 Padrão de Resposta:
 ```json
 {
- "id": number,
- "title": string,
- "content": string,
- "steps": string[],
+ "id": 1,
+ "title": "Exemplo 1",
+ "content": "conteudo de descrição",
+ "steps": ["passo1", "passo 2"],
 }
 ```
 Possiveis erros:
 ### Receita não encontrada 404
 ```json
 {
-   "Recipe not found."
+   "error": "Recipe not found."
 }
 ```
